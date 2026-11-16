@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "taurus",
+  "version": "${version}",
+  "name": "TAURUS",
+  "description": "Client-side exploration utilities for worlds and servers where their use is permitted.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.minecraftjailbreak.basefinder.TaurusClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
