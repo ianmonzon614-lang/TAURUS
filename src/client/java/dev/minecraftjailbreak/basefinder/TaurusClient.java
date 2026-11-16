@@ -29,7 +29,7 @@ public final class TaurusClient implements ClientModInitializer {
         openMenuKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.taurus.open_menu",
                 InputConstants.Type.KEYSYM,
-                InputConstants.KEY_RIGHT_SHIFT,
+                GLFW.GLFW_KEY_RIGHT_SHIFT,
                 CATEGORY
         ));
 
